@@ -1,86 +1,103 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="sk">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Lorem ipsum — Cvičkin blog</title>
-<link rel="stylesheet" href="main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lorem ipsum — Cvičkin blog</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div id="container">
-    <header>
+  <div class="container">
+    <header class="header">
         <h1>Cvičkin blýskavý blog</h1>
-        <ul class="menu">
-            <li><a href="index.html">domov</a></li><li><a href="index.html">foto</a></li><li><a href="index.html">o mne</a></li><li><a href="index.html">moja škola</a></li>
-        </ul>
+
+        <nav class="menu">
+          <ul>
+              <li><a href="index.html">domov</a></li>
+              <li><a href="index.html">foto</a></li>
+              <li><a href="index.html">o mne</a></li>
+              <li><a href="index.html">moja škola</a></li>
+          </ul>
+        </nav>
+
         <form action="#">
             <input type="text" name="query" placeholder="Search this blog"/>
             <input type="submit" value="Search" />
         </form>
     </header>
-    <main id="left">
-    <article>
-        <h2>Lorem ipsum</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <h3>Duis autem vel eum iriure</h3>
-        <figure>
-            <img src="imgs/img1.png" width="100" height="100" alt="Burro. From A Walk in the Hay-Fields"/>
-            <figcaption>Burro</figcaption>
-        </figure>
-        <figure>
-            <img src="imgs/img2.png" width="100" height="100" alt="Farmer. From A Walk in the Hay-Fields"/>
-            <figcaption>Farmer</figcaption>
-        </figure>
-        <p>
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-        </p>
-        <h3>Typi non habent claritatem insitam</h3>
-        <p>
-        Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. <a href="http://loremipsum.org/">Investigationes</a> demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam <a href="http://loremipsum.org/">processus dynamicus</a>, qui sequitur mutationem consuetudium lectorum.
-        </p>
-        <p>
-        Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-        </p>
-        <h3>Mirum est littera gothica</h3>
-        <p>
-        Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-        </p>
-        <section>
-            <h2>Komentáre</h2>
-            <article>
-                <h3>Nadpis, autor</h3>
-                <p>Text komentaru</p>
-                <article>
-                    <h3>RE: Nadpis, iny autor</h3>
-                    <p>Odpoved na komentar</p>
-                </article>
-            </article>
-            <article>
-                <h3>Este jeden, autor</h3>
-                <p>Posledny</p>
-            </article>
-        </section>
-    </article>
+
+    <main class="main">
+      <article>
+          <h2>Lorem ipsum</h2>
+          <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </p>
+          <h3>Duis autem vel eum iriure</h3>
+          <figure>
+              <img src="imgs/img1.png" width="100" height="100" alt="Burro. From A Walk in the Hay-Fields"/>
+              <figcaption>Burro</figcaption>
+          </figure>
+          <figure>
+              <img src="imgs/img2.png" width="100" height="100" alt="Farmer. From A Walk in the Hay-Fields"/>
+              <figcaption>Farmer</figcaption>
+          </figure>
+          <p>
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+          </p>
+          <h3>Typi non habent claritatem insitam</h3>
+          <p>
+          Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. <a href="http://loremipsum.org/">Investigationes</a> demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam <a href="http://loremipsum.org/">processus dynamicus</a>, qui sequitur mutationem consuetudium lectorum.
+          </p>
+          <p>
+          Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+          </p>
+          <h3>Mirum est littera gothica</h3>
+          <p>
+          Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+          </p>
+          <section>
+              <h2>Komentáre</h2>
+              <article>
+                  <h3>Nadpis, autor</h3>
+                  <p>Text komentaru</p>
+                  <article>
+                      <h3>RE: Nadpis, iny autor</h3>
+                      <p>Odpoved na komentar</p>
+                  </article>
+              </article>
+              <article>
+                  <h3>Este jeden, autor</h3>
+                  <p>Posledny</p>
+              </article>
+          </section>
+      </article>
     </main>
-    <aside>
+
+    <aside class="aside">
         <img src="imgs/cvicka.png" alt="Me, Cvicka" width="200"/>
+
         <h2>Elvíra Cvičená</h2>
+
         <p>
         Ahoj svet! Volám sa Elvíra Cvičená, ale všetci ma volajú Cvička.
         Toto je môj malý blog.
         Nestrácajte čas čítaním môjho blogu.
         Radšej mi pomôžte upraviť ho, aby bol pekný a celý naleštený.
         </p>
+
         <h2>Blogroll</h2>
+
         <ul>
             <li><a href="">Alica</a></li>
             <li><a href="">Petra</a></li>
             <li><a href="http://klara.blog.idnes.cz/">Klára</a></li>
             <li><a href="http://arien.blog.matfyz.sk/">Justýna</a></li>
         </ul>
+
         <h2>Prečítajte si</h2>
+
         <ul>
             <li><a href="">XHTML</a></li>
             <li><a href="">CSS 2.1</a></li>
@@ -88,12 +105,19 @@
             <li><a href="">JQuery</a></li>
         </ul>
     </aside>
-    <footer>
-        <p>&copy; <a href="index.html">Elvíra Cvičená</a>, 2010</p>
-        <ul class="menu">
-            <li><a href="index.html">domov</a></li><li><a href="index.html">foto</a></li><li><a href="index.html">o mne</a></li><li><a href="index.html">moja škola</a></li>
-        </ul>
+
+    <footer class="footer">
+        <p>&copy; <a href="index.html">Elvíra Cvičená</a>, 2010&ndash;2015</p>
+
+        <div class="menu">
+          <ul>
+              <li><a href="index.html">domov</a></li>
+              <li><a href="index.html">foto</a></li>
+              <li><a href="index.html">o mne</a></li>
+              <li><a href="index.html">moja škola</a></li>
+          </ul>
+        </div>
     </footer>
-</div>
-</body> 
+  </div>
+</body>
 </html>
